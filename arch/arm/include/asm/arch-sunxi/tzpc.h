@@ -29,6 +29,10 @@ struct sunxi_tzpc {
 #define SUN8I_H3_TZPC_DECPORT1_ALL  0xff
 #define SUN8I_H3_TZPC_DECPORT2_ALL  0x7f
 
+#define SUN9I_TZPC_DECPORT0_ALL 0xfe
+#define SUN9I_TZPC_DECPORT1_ALL 0x7f
+#define SUN9I_TZPC_DECPORT2_ALL 0x00
+
 void tzpc_init(void);
 
 #endif /* _SUNXI_TZPC_H */

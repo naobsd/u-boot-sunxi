@@ -11,6 +11,7 @@ obj-y	+= timer.o
 
 obj-$(CONFIG_MACH_SUN6I)	+= tzpc.o
 obj-$(CONFIG_MACH_SUN8I_H3)	+= tzpc.o
+obj-$(CONFIG_MACH_SUN9I)	+= tzpc.o
 
 ifndef CONFIG_SPL_BUILD
 obj-$(CONFIG_ARMV7_PSCI)	+= psci.o
