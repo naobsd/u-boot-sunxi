@@ -44,6 +44,7 @@ config ARMV7_PSCI
 config ARMV7_PSCI_NR_CPUS
 	int "Maximum supported CPUs for PSCI"
 	depends on ARMV7_NONSEC
+	default 8 if MACH_SUN9I
 	default 4
 	help
 	  The maximum number of CPUs supported in the PSCI firmware.
